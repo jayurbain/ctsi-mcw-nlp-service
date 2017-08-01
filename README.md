@@ -12,6 +12,8 @@ The web app and web service links provided below are for evaluation only and not
 ### Web-based user interface
 [https://cis.ctsi.mcw.edu/nlp/](https://cis.ctsi.mcw.edu/nlp/)
 
+Formats: pretty print, JSON, Brat Annotation, HTML data dump
+
 ![Web Screen Shot](https://github.com/jayurbain/ctsi-mcw-nlp-service/blob/master/src/main/webapp/img/web_screen_shot.png)
 
 ### JSON web-service interface
