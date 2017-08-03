@@ -316,7 +316,7 @@ public class NLPServiceServlet extends HttpServlet {
                     		String code = umlsConceptWrapper.getPreferredText().replaceAll("\\s","_") +"_"+umlsConceptWrapper.getCui()+"_"+umlsConceptWrapper.getCode();
                             if( !entityMap.containsKey(code) ) {
                             	StringBuffer sbb = new StringBuffer();
-                            	sb.append( "T"+T + " " + code + " " + umlsConceptWrapper.getCoveredText() + "<BR>");
+                            	sb.append( "T"+T + " " + code + " " + umlsConceptWrapper.getBegin() + " " + umlsConceptWrapper.getEnd() + " " + umlsConceptWrapper.getCoveredText() + "<BR>");
                             	entityMap.put(code, null);
                             	T += 1;
                             }
